@@ -1,0 +1,81 @@
+/* TodoList.module.css */
+/* 2-a. Change the background color of the page body */
+body {
+    background-color: #f2f2f2;
+  }
+  /* 2-b. Change the default text color */
+  body {
+    color: #333;
+  }
+   /* 2-c. Customize the font family */
+  body {
+    font-family: Arial, sans-serif;
+  } 
+  /* 2-d. Load in a font family from Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  /* 2-e. Customize style of navigation items */
+  .nav-item {
+    /* Add your custom styling for navigation items here */
+  }
+  /* 2-f. Add spacing (padding/margin) between elements */
+  .container {
+    padding: 10px;
+  }
+  /* 2-g. Change the font size, weight, and color of all headings */
+  h1, h2, h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+  }
+  /* TodoListItem.module.css */
+
+/* 2-h. Customize input and button styles */
+input[type="text"] {
+    /* Custom styling for input fields */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  button {
+    /* Custom styling for buttons */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* 2-i. Use Media Queries to make sure the application is responsive for all device sizes (mobile, tablet, desktop, etc.) */
+  @media screen and (max-width: 768px) {
+    /* Custom styling for mobile devices */
+    body {
+      font-size: 14px;
+    }
+     /* Adjust other styles for mobile devices */
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Custom styling for tablet devices */
+    body {
+      font-size: 16px;
+    }
+    
+    /* Adjust other styles for tablet devices */
+  }
+  @media screen and (min-width: 1025px) {
+    /* Custom styling for desktop devices */
+    body {
+      font-size: 18px;
+    }
+      /* Adjust other styles for desktop devices */
+  }
+  /* 2-j. Add multi-media usage (i.e. iconography) */
+  .icon {
+    /* Custom styling for icons */
+    background-image: url('path/to/nc_state_flag.png');
+    /* Add other styles for the icon */
+  }
